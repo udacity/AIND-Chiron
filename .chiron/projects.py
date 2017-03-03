@@ -19,7 +19,7 @@ projects = list(SETTINGS.keys())
 
 
 RESUBMIT_MSG = """NOTICE:\n
-  \"You are about to submit your project.  If you have previously submitted
+  \"You are about to submit your agent.  If you have previously submitted
   your agent, continuing will replace that submission for the tournament.\"
 """
 
