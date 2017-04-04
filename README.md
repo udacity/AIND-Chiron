@@ -34,3 +34,12 @@ After submitting, you can list all your previous submissions by changing to the 
 You can pull the zip file and feedback for any submission with the command:
 
 	udacity get <SUBMISSION_ID>
+
+### Authenticating with Google or Facebook
+
+Google and Facebook are difficult to use as identity providers for authentication from the command line. Therefore, we ask you to download a JSON web token from [this link](https://project-assistant.udacity.com/auth_tokens/new), and save it as
+
+ - ~/.udacity-pa/jwt for Mac OSX and Linux or
+ - %APPDATA%\udacity-pa\jwt for Windows, where %APPDATA% is an environment variable that will have a value like C:\Users\<username>\AppData\Roaming.
+
+The submission script will read the token from your filesystem so that you do not need to authenticate from the command line.
