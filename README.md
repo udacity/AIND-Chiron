@@ -42,4 +42,6 @@ Google and Facebook are difficult to use as identity providers for authenticatio
  - ~/.udacity-pa/jwt for Mac OSX and Linux or
  - %APPDATA%\udacity-pa\jwt for Windows, where %APPDATA% is an environment variable that will have a value like C:\Users\<username>\AppData\Roaming.
 
+ Note: If you get an error after downloading the jwt, try moving it to ~/.ursula/jwt (or %APPDATA%\ursula\jwt for Windows). The error may be caused by version differences between the project assistant library version installed from PIP.
+
 The submission script will read the token from your filesystem so that you do not need to authenticate from the command line.
