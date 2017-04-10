@@ -1,6 +1,6 @@
 import os
 
-from udacity_chiron import udacity
+from udacity_pa import udacity
 
 from glob import glob
 
