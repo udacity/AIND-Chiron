@@ -54,3 +54,7 @@ Google and Facebook are difficult to use as identity providers for authenticatio
  Note: If you get an error after downloading the jwt, try moving it to ~/.ursula/jwt (or %APPDATA%\ursula\jwt for Windows). This error should only occur if you are using the udacity-chiron tool rather than the udacity-pa library (step 2 above).
 
 The submission script will read the token from your filesystem so that you do not need to authenticate from the command line.
+ # Archival Note 
+ This repository is deprecated; therefore, we are going to archive it. However, learners will be able to fork it to their personal Github account but cannot submit PRs to this repository. If you have any issues or suggestions to make, feel free to: 
+- Utilize the https://knowledge.udacity.com/ forum to seek help on content-specific issues. 
+- Submit a support ticket along with the link to your forked repository if (learners are) blocked for other reasons. Here are the links for the [retail consumers](https://udacity.zendesk.com/hc/en-us/requests/new) and [enterprise learners](https://udacityenterprise.zendesk.com/hc/en-us/requests/new?ticket_form_id=360000279131).
